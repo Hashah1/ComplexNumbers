@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B2E48521F5E327B00629BD1 /* complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B2E48501F5E327B00629BD1 /* complex.cpp */; };
 		0B82F7F11F5E27A000E25B62 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B82F7F01F5E27A000E25B62 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0B2E48501F5E327B00629BD1 /* complex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = complex.cpp; sourceTree = "<group>"; };
+		0B2E48511F5E327B00629BD1 /* complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complex.h; sourceTree = "<group>"; };
 		0B82F7ED1F5E27A000E25B62 /* lab1_shah */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab1_shah; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B82F7F01F5E27A000E25B62 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,7 +44,7 @@
 		0B82F7E41F5E27A000E25B62 = {
 			isa = PBXGroup;
 			children = (
-				0B82F7EF1F5E27A000E25B62 /* lab1_shah */,
+				0B82F7EF1F5E27A000E25B62 /* shah_lab1_cmpe126 */,
 				0B82F7EE1F5E27A000E25B62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,11 +57,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0B82F7EF1F5E27A000E25B62 /* lab1_shah */ = {
+		0B82F7EF1F5E27A000E25B62 /* shah_lab1_cmpe126 */ = {
 			isa = PBXGroup;
 			children = (
 				0B82F7F01F5E27A000E25B62 /* main.cpp */,
+				0B2E48501F5E327B00629BD1 /* complex.cpp */,
+				0B2E48511F5E327B00629BD1 /* complex.h */,
 			);
+			name = shah_lab1_cmpe126;
 			path = lab1_shah;
 			sourceTree = "<group>";
 		};
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B2E48521F5E327B00629BD1 /* complex.cpp in Sources */,
 				0B82F7F11F5E27A000E25B62 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +255,7 @@
 				0B82F7F61F5E27A000E25B62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
